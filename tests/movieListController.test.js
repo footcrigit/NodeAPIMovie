@@ -11,7 +11,15 @@ const MovieJsonRequest = {
 }
 test('List movie details', () => {
     expect(list_all_movies()).toBe(MovieJsonresponse);
+    //This test Suite would test list all movies
+    //Need to add test suite to verify the error response
+    //Need to add test suite to verify the empty response
+    //Need to add test suite to verify the exception handling
 });
-test('List movie details', () => {
+test('Add movie details', () => {
     expect(create_a_movie(MovieJsonRequest).toBe(MovieJsonresponse);
+    //This test Suite would test Create entry in mangoDB
+    //Need to add test suite to verify the error response
+    //Need to add test suite to verify the empty response
+    //Need to add test suite to verify the exception handling
 });
